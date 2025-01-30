@@ -1,0 +1,18 @@
+/* fonts */
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Nav styles  */
+nav {
+    display: flex;
+}
+
+nav ul>li {
+    display: flex;
+}
