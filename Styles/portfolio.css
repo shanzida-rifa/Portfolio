@@ -11,7 +11,6 @@
 /* shared CSS */
 .secondary-bgcolor {
     border-radius: 10px;
-
     background: rgb(255, 248, 243);
 }
 
@@ -114,13 +113,13 @@ nav ul a {
 main {
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 120px;
 }
 
 .about-items {
@@ -146,7 +145,9 @@ main {
 .cards {
     margin-top: 120px;
     display: flex;
+    gap: 24px;
     justify-content: space-evenly;
+
 }
 
 .card {
@@ -154,4 +155,44 @@ main {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
+}
+
+/* resume styles */
+.resume-container {
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+
+.colum-title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.experience-title {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.experience-subtitle {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.experience-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.resume hr {
+    margin: 30px 5px;
 }
