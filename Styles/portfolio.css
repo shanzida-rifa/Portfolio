@@ -196,3 +196,27 @@ main {
 .resume hr {
     margin: 30px 5px;
 }
+
+/* footer styles */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="email"],
+input[type="text"],
+textarea {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    height: 64px;
+    width: 461px;
+    border: none;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
